@@ -14,7 +14,14 @@ There are two pathways I see this assisting those with disabilities.
 2. Educators working with people who have dysgraphia can find analyzing work and providing feedback difficult. By converting unclear handwritten information into clear computer generated text can help teachers with this issue.
 
 ### How it works
-I used TensorFlow and Keras libraries to assist me with my deep learning model.
+I used TensorFlow and Keras libraries to assist me with my deep learning model. The actual model is quite simple:
+'''
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(512, activation=tf.nn.relu),
+    tf.keras.layers.Dense(10, activation=tf.nn.softmax)
+])
+'''
 
 Flask - Microframework for python (a very minimal web application framework, or software that supports web app development)
 Relation between 'Web App' and 'Web Service'
