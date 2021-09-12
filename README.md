@@ -30,5 +30,5 @@ I also used Flask to host both my web app and my web service.
 ###### Web App vs Web Service
 Web application (the web page) gets data, then it sends the data to the web service (backend), which then uses that information for whatever processes it needs to complete, then it sends it back to the frontend application.
 
-## Important Notes
+### Important Notes
 My code is HEAVILY commented. Feel free to go through everything and learn more in detail about what I did. A video description will be attached on my devpost project submission.
