@@ -10,11 +10,43 @@
     </style>
 </head>
 <body>
+    <h2>Welcome to NeurobilityAI's Handwritten Digit Recognizer</h2>
+    <h4>@Anish Shriram</h4>
+    <h5>Instagram: @anishshriram; GitHub: @ashriram-github; Email: @ashriram@outlook.com</h5>
+    <div>This resource is for educators to help analyze and assit individuals with learning disabilities. This resource
+      would be most effective for individuals with dysgraphia and dyslexia. To use this website, please choose a 'png' file of a handwritten digit. The image you selected will pop up on screen. Then, please click 'predict digit'. The Deep Neural Network model will attempt to classify the digit.</div>
+    <br>
+    <div>For those with learning disorders, seeing a clear, computer generated, visualization of what they are trying to write is far better than learning from messy handwritten methodologies. Educators may also use this website to understand what those with dysgraphia are trying to write.</div>
+
+    <br>
+
     <input id="image-selector" type="file">
     <button id="predict-button">Predict Digit</button>
+    <img id="selected-image" src=""/>
     <p style="font-weight:bold">Model Predictions</p>
     <p>Predicted Digit: <span id="predicted-digit"></span></p>
-    <img id="selected-image" src=""/>
+
+    <br>
+
+    <p>If you would be so kind as to leave comments and feedback, I would really appreciate it! Suggestions as to how to make the website more robust, incorporate more functionality, and other methods to make my site more inclusive for people with disabilities would be amazing!</p>
+
+    <form action="URL to form script" method="POST">
+
+    Your name: <br>
+    <input type="text" name="realname"><br>
+    <br>
+
+    Your email: <br>
+    <input type="text" name="email"><br>
+    <br>
+
+    Your comments: <br>
+    <textarea name="comments" rows="15" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+    </form>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
