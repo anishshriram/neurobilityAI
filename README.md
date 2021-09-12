@@ -30,5 +30,14 @@ I also used Flask to host both my web app and my web service.
 ###### Web App vs Web Service
 Web application (the web page) gets data, then it sends the data to the web service (backend), which then uses that information for whatever processes it needs to complete, then it sends it back to the frontend application.
 
+### Challenges Faced, What's Next, What Did I Learn?
+First of all, I think it is important to know that prior to this experience, I had NO experience constructing web applications, flask, HTTP, or anything of the sort. I think it is impressive how much I got done and learned in the short period I did this project (only took around 4, 5 hours).
+I had a LOT of challenges getting the model to actually take in the images, and preprocessing them. I had quite a bit of challenges figuring out flask. I give a lot of credit to their documentation page, reading up helped me a lot.
+
+I think what I created was impressive given the circumstances...but I have a lot to work on. 
+1. Creating a more friendly UI/UX would be top of my list...the site is veryyy basic
+2. Incorporating some of my more complicated neural networks would also be a good thing to do. Because of the short time I only did a very simple one. 
+3. Creating more functionality to make my site more inclusive for a wider range of people. I am sure I can create something to help people with a wider range of learning disabilities, and I hope to do so soon!
+
 ### Important Notes
 My code is HEAVILY commented. Feel free to go through everything and learn more in detail about what I did. A video description will be attached on my devpost project submission.
