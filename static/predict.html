@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Title -->
     <title>MNIST Digit Prediction App</title>
     <style>
         * {
@@ -10,6 +11,7 @@
     </style>
 </head>
 <body>
+    <!-- Basic information about the website and its functionality -->
     <h2>Welcome to NeurobilityAI's Handwritten Digit Recognizer</h2>
     <h4>@Anish Shriram</h4>
     <h5>Instagram: @anishshriram; GitHub: @ashriram-github; Email: @ashriram@outlook.com</h5>
@@ -20,16 +22,21 @@
 
     <br>
 
+    <!-- File selector for the image -->
     <input id="image-selector" type="file">
+    <!-- Prediction button, for when the user actually wants to predict something -->
     <button id="predict-button">Predict Digit</button>
+    <!-- To see the image that the user chose -->
     <img id="selected-image" src=""/>
     <p style="font-weight:bold">Model Predictions</p>
+    <!-- Displays the predicted digit -->
     <p>Predicted Digit: <span id="predicted-digit"></span></p>
 
     <br>
 
     <p>If you would be so kind as to leave comments and feedback, I would really appreciate it! Suggestions as to how to make the website more robust, incorporate more functionality, and other methods to make my site more inclusive for people with disabilities would be amazing!</p>
 
+    <!-- Feedback form -->
     <form action="URL to form script" method="POST">
 
     Your name: <br>
@@ -46,7 +53,9 @@
     <input type="submit" value="Submit">
 
     </form>
+    <!-- Importing jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Reference to my javascript file -->
     <script src="predict.js"></script>
 
 </body>
