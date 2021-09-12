@@ -22,6 +22,9 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(10, activation=tf.nn.softmax)
 ])
 '''
+```ruby
+puts "Hello World!"
+```
 
 Flask - Microframework for python (a very minimal web application framework, or software that supports web app development)
 Relation between 'Web App' and 'Web Service'
